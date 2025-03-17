@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const express = require('express');
 const cors = require('cors');
 
-const PORT = process.env.SECONDARY_PUBLIC_PORT || 8000;
+const PORT = process.env.VITE_API_URI || 8000;
 
 const app = express();
 
